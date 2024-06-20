@@ -17,7 +17,7 @@ struct AddTaskView: View {
             .padding()
             .navigationBarItems(
                 trailing: Button(action: {
-                    modelContext.insert(object: task)
+                    modelContext.insert(task)
                     showingAddTaskView = false
                 }) {
                     Text("保存")
