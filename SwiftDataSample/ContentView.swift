@@ -73,7 +73,8 @@ struct ContentView: View {
 let previewContainer: ModelContainer = {
     do {
         let container = try ModelContainer(
-            for: Task.self, ModelConfiguration(inMemory: true)
+            for: Task.self,
+            configurations: ModelConfiguration(isStoredInMemoryOnly: true)
         )
         let sampleTasks = [
             Task(title: "テストケースを作成する"),
@@ -82,7 +83,7 @@ let previewContainer: ModelContainer = {
             Task(title: "バグ修正を行う"),
             Task(title: "ドキュメントを更新する")]
         for task in sampleTasks {
-            container.mainContext.insert(object: task)
+            container.mainContext.insert(task)
         }
         return container
     } catch {

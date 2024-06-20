@@ -2,5 +2,5 @@
 - Sample App for SwiftData
 
 ## Development environment
-- macOS Ventura 13.4
-- Xcode Version 15 beta
+- macOS Sonoma 14.5
+- Xcode Version 16 beta
