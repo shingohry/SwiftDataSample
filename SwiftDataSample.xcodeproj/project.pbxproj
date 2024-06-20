@@ -12,6 +12,8 @@
 		F14CA4B32A395CAB00F5CFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14CA4B22A395CAB00F5CFB1 /* Assets.xcassets */; };
 		F14CA4B62A395CAB00F5CFB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14CA4B52A395CAB00F5CFB1 /* Preview Assets.xcassets */; };
 		F1997C522A3964BA006B7397 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1997C512A3964BA006B7397 /* EditTaskView.swift */; };
+		F1C74FB62C240D9E003B4BF3 /* JSONStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C74FB52C240D8F003B4BF3 /* JSONStore.swift */; };
+		F1C74FB82C241200003B4BF3 /* JSONStoreConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C74FB72C241200003B4BF3 /* JSONStoreConfiguration.swift */; };
 		F1E044F12A396C6800C33516 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E044F02A396C6800C33516 /* Task.swift */; };
 		F1E044F52A3983AB00C33516 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E044F42A3983AB00C33516 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +25,8 @@
 		F14CA4B22A395CAB00F5CFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F14CA4B52A395CAB00F5CFB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1997C512A3964BA006B7397 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		F1C74FB52C240D8F003B4BF3 /* JSONStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStore.swift; sourceTree = "<group>"; };
+		F1C74FB72C241200003B4BF3 /* JSONStoreConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStoreConfiguration.swift; sourceTree = "<group>"; };
 		F1E044F02A396C6800C33516 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F1E044F42A3983AB00C33516 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +66,8 @@
 				F1E044F42A3983AB00C33516 /* AddTaskView.swift */,
 				F1997C512A3964BA006B7397 /* EditTaskView.swift */,
 				F1E044F02A396C6800C33516 /* Task.swift */,
+				F1C74FB52C240D8F003B4BF3 /* JSONStore.swift */,
+				F1C74FB72C241200003B4BF3 /* JSONStoreConfiguration.swift */,
 				F14CA4B22A395CAB00F5CFB1 /* Assets.xcassets */,
 				F14CA4B42A395CAB00F5CFB1 /* Preview Content */,
 			);
@@ -147,9 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F14CA4B12A395CAA00F5CFB1 /* ContentView.swift in Sources */,
+				F1C74FB62C240D9E003B4BF3 /* JSONStore.swift in Sources */,
 				F1E044F52A3983AB00C33516 /* AddTaskView.swift in Sources */,
 				F1997C522A3964BA006B7397 /* EditTaskView.swift in Sources */,
 				F14CA4AF2A395CAA00F5CFB1 /* SwiftDataSampleApp.swift in Sources */,
+				F1C74FB82C241200003B4BF3 /* JSONStoreConfiguration.swift in Sources */,
 				F1E044F12A396C6800C33516 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
